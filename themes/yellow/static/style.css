@@ -1,0 +1,70 @@
+@font-face {
+  font-family: IBM-Plex;
+  src: url(IBM-Plex.ttf);
+}
+
+body {
+  background-color: #11191f;
+}
+
+* {
+  color: #fcec0c;
+  font-family: IBM-Plex;
+}
+
+.page {
+  max-width: 64rem;
+  margin: 1rem auto;
+  display: grid;
+  grid-row-gap: 2rem;
+}
+
+.page-header {
+  display: flex;
+}
+
+.blog-title {
+  background-color: #fcec0c;
+}
+
+.title-text {
+  display: block;
+  font-size: 16px;
+  color: #11191f;
+  padding: 0.35rem;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  margin-top: 26px;
+  margin-left: -2rem;
+}
+
+.menu-item {
+  list-style-type: none;
+}
+
+.menu-item_text {
+  display: block;
+  font-size: 16px;
+  padding-left: 1rem;
+  text-decoration: none;
+}
+
+.content-container {
+  background-color: #1C2933;
+}
+
+.content {
+  margin: 1.5rem;
+}
+
+.content-title {
+  font-size: 24px;
+}
+
+.copyright {
+  font-size: 16px;
+  text-align: center;
+}
