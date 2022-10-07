@@ -6,4 +6,9 @@ Hi! I'm an 18 years old computer and a reneable energies student, I'm not really
 new stuffs and gain knowledge whenever I can.
 
 # Interests:
-* Linux/BSD System Administration
+* Linux/BSD system administration
+* Cybersecurity
+* Programming
+* Digital Privacy
+* Low level details of computer software and hardware
+* DIY Electronics
