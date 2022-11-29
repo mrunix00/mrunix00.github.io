@@ -1,6 +1,6 @@
 @font-face {
-  font-family: Teko;
-  src: url(Teko-Medium.ttf);
+  font-family: BebasNeue-Regular;
+  src: url(./BebasNeue-Regular.ttf);
 }
 
 body {
@@ -9,7 +9,7 @@ body {
 
 * {
   color: #fcec0c;
-  font-family: Teko;
+  font-family: IBM-Plex;
 }
 
 .page {
@@ -29,7 +29,7 @@ body {
 
 .title-text {
   display: block;
-  font-size: 24px;
+  font-size: 16px;
   color: #11191f;
   padding: 0.35rem;
   text-decoration: none;
@@ -47,7 +47,7 @@ body {
 
 .menu-item_text {
   display: block;
-  font-size: 24px;
+  font-size: 16px;
   padding-left: 1rem;
   text-decoration: none;
 }
@@ -58,7 +58,6 @@ body {
 
 .content {
   margin: 1.5rem;
-  font-size: 20px;
 }
 
 .content-title {
@@ -66,6 +65,6 @@ body {
 }
 
 .copyright {
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
 }
