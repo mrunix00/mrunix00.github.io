@@ -8,9 +8,13 @@ theme = "yellow"
     name = "Posts"
     url = "/posts"
     weight = 10
-
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact"
+    weight = 20
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about"
-    weight = 20
+    weight = 30
