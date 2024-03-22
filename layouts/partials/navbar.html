@@ -3,7 +3,7 @@
         <a class="title navbar-link" href="/">Mr.UNIX</a>
         {{ range .Site.Menus.main }}
         {{if .Params.download }}
-        <a href="{{ .URL }}" class="navbar-link" download>{{ .Name }}</a>
+        <a href="{{ .URL }}" class="navbar-link" target="_blank">{{ .Name }}</a>
         {{else}}
         <a href="{{ .URL }}" class="navbar-link">{{ .Name }}</a>
         {{end}}
