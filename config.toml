@@ -1,0 +1,20 @@
+baseURL = 'https://mrunix.me'
+languageCode = 'en-us'
+title = 'Mr.UNIX'
+
+[menu]
+[[menu.main]]
+    name = 'Projects'
+    url = '/projects/'
+    pre = 'pen-tool'
+
+[[menu.main]]
+    name = 'Posts'
+    url = '/posts/'
+    pre = 'pen-tool'
+
+[[menu.main]]
+    name = 'Resume'
+    url = '/resume.pdf'
+    params = { download = true }
+

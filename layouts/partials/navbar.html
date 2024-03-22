@@ -1,0 +1,12 @@
+<nav>
+    <div class="navbar">
+        <a class="title navbar-link" href="/">Mr.UNIX</a>
+        {{ range .Site.Menus.main }}
+        {{if .Params.download }}
+        <a href="{{ .URL }}" class="navbar-link" download>{{ .Name }}</a>
+        {{else}}
+        <a href="{{ .URL }}" class="navbar-link">{{ .Name }}</a>
+        {{end}}
+        {{ end }}
+    </div>
+</nav>

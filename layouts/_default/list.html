@@ -1,0 +1,11 @@
+{{ define "main" }}
+{{ range .Pages.ByPublishDate.Reverse }}
+<div class="article-list-item">
+    {{if eq $.Title "Posts" }}
+    <span>[{{ .PublishDate.Format "2006-01-02" }}]</span>
+    {{ end }}
+
+    <a href="{{ .RelPermalink }}"> {{ .Title }} </a>
+</div>
+{{end}}
+{{ end }}
