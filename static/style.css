@@ -1,8 +1,3 @@
-@font-face {
-    font-family: 'Cairo';
-    src: url(./cairo-font.ttf);
-}
-
 body {
     font-family: "Cairo", sans-serif;
     background-color: #282828;
