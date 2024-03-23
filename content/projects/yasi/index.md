@@ -17,10 +17,10 @@ written from scratch in C++.
 - [x] Load and execute files
 - [x] Basic arithmetic operations (+-*/)
 - [x] Print statement
-- [ ] Input statement
+- [x] Input statement
 - [ ] File I/O operations
 - [x] Strings
-- [ ] Comments
+- [x] Comments
 - [x] Variables
 - [x] Conditional statements
 - [x] Functions
