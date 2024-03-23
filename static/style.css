@@ -15,6 +15,7 @@ li,
 span {
     font-size: 20px;
     color: #bbb;
+    margin: 0;
 }
 
 a {
@@ -130,15 +131,6 @@ article {
 
 input[type="checkbox"]:disabled {
     filter: invert(100%) hue-rotate(18deg) brightness(5);
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    list-style: none;
 }
 
 img {

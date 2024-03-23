@@ -6,8 +6,10 @@ I'm not a genius or an expert in anything, but I'm always looking to gain and sh
 
 # Socials
 
+You can find me on the following platforms:
+
 - GitHub: [@mrunix00](https://github.com/mrunix00)
-- Sourcehut: [~mrunix](https://sr.ht/~mrunix/)
+- HardenedBSD GitLab: [@mrunix](https://git.hardenedbsd.org/mrunix)
 - Twitter: [@mrunix0](https://twitter.com/mrunix0)
 - Bluesky: [mrunix.bsky.social](https://bsky.app/profile/mrunix.bsky.social)
 - Mastodon: [@mrunix@infosec.exchange](https://infosec.exchange/@mrunix)

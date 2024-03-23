@@ -18,6 +18,9 @@ written from scratch in C++.
 - [x] Basic arithmetic operations (+-*/)
 - [x] Print statement
 - [ ] Input statement
+- [ ] File I/O operations
+- [x] Strings
+- [ ] Comments
 - [x] Variables
 - [x] Conditional statements
 - [x] Functions
