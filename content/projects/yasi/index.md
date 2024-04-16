@@ -31,8 +31,10 @@ written from scratch in C++.
 - [ ] Mathematical functions (sin, cos, tan, etc.)
 - [x] Compilation to bytecode
 - [x] Bytecode execution
-- [ ] Bytecode optimization
-- [ ] Tail call optimization
-- [ ] Error handling (WIP)
+- [ ] Optimization
+    - [ ] Compile-time evaluation
+    - [ ] Functions inlining
+    - [ ] Tail call optimization
+- [x] Error handling
 - [ ] Garbage collection
 - [ ] Windows Support
