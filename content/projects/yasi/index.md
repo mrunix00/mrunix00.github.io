@@ -35,6 +35,7 @@ written from scratch in C++.
     - [ ] Compile-time evaluation
     - [ ] Functions inlining
     - [ ] Tail call optimization
+    - [ ] JIT Compilation
 - [x] Error handling
 - [ ] Garbage collection
 - [ ] Windows Support
