@@ -32,9 +32,10 @@ written from scratch in C++.
 - [x] Compilation to bytecode
 - [x] Bytecode execution
 - [ ] Optimization
+    - [x] Constants substitution
     - [ ] Compile-time evaluation
     - [ ] Functions inlining
-    - [ ] Tail call optimization
+    - [x] Tail call optimization
     - [ ] JIT Compilation
 - [x] Error handling
 - [ ] Garbage collection
