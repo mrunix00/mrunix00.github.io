@@ -25,6 +25,7 @@ written from scratch in C++.
 - [x] Conditional statements
 - [x] Functions
 - [x] Lambda functions
+- [ ] Pairs
 - [ ] Lists
 - [ ] Macros
 - [ ] Load and execute libraries
@@ -34,7 +35,7 @@ written from scratch in C++.
 - [ ] Optimization
     - [x] Constants substitution
     - [ ] Compile-time evaluation
-    - [ ] Functions inlining
+    - [ ] Functions inlining [(WIP)](https://github.com/mrunix00/Yasi/commit/89e010e5623f7aabdba738418d38414f132de3e2)
     - [x] Tail call optimization
     - [ ] JIT Compilation
 - [x] Error handling
