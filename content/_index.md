@@ -4,6 +4,12 @@ Welcome to my personal blog! I'm Ibrahim KAIKAA (also known as Mr.UNIX),
 a 19 years old nerd who likes computers.
 I'm not a genius or an expert in anything, but I'm always looking to gain and share my knowledge.
 
+# Projects I contributed to
+
+- [HardenedBSD](https://git.hardenedbsd.org/mrunix).
+- [SerenityOS](https://github.com/SerenityOS/serenity/pulls?q=is%3Apr+author%3Amrunix00+is%3Aclosed).
+- [Research In English](https://researchinenglish.com/about.html).
+
 # Socials
 
 You can find me on the following platforms:
