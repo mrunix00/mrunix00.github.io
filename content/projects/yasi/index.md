@@ -1,6 +1,5 @@
 ---
 title: "Yasi (Yet another scheme implementation)"
-date: 2024-02-24T11:55:51+01:00
 draft: false
 ---
 
@@ -9,7 +8,9 @@ draft: false
 the [Lisp programming language](https://en.wikipedia.org/wiki/Lisp_(programming_language)),
 written from scratch in C++.
 
-![Yasi](yasi-screenshot.png)
+{{< rawhtml >}}
+<img src="yasi-screenshot.png" alt="Yasi screenshot" width="100%">
+{{< /rawhtml >}}
 
 ## Roadmap
 
