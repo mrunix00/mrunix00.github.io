@@ -1,9 +1,13 @@
 ---
-title: "SPL"
+title: "SPL (Simple Programming Language)"
 draft: false
 ---
 
-[SPL (Simple Programming Language)](https://github.com/mrunix00/SPL) is a WIP interpreted, statically typed and VM-based programming language.
+[SPL](https://github.com/mrunix00/spl) is a WIP interpreted, statically typed and VM-based programming language.
+
+{{< rawhtml >}}
+<img src=logo.svg width=50%>
+{{< /rawhtml >}}
 
 ## Roadmap
 - [x] Lexer
