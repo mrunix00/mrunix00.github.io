@@ -19,7 +19,7 @@ draft: false
 - [x] While loops
 - [x] For loops
 - [ ] Arrays
-- [ ] Strings
+- [x] Strings
 - [ ] Hashmaps
 - [ ] Error handling
 - [ ] Structs
