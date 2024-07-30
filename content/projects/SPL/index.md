@@ -18,7 +18,7 @@ draft: false
 - [x] Conditions
 - [x] While loops
 - [x] For loops
-- [ ] Arrays
+- [x] Arrays
 - [x] Strings
 - [ ] Hashmaps
 - [ ] Error handling
