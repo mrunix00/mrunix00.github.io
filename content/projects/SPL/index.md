@@ -26,7 +26,7 @@ draft: false
 - [ ] I/O operations
 - [x] Bytecode VM
 - [ ] Tail call optimization
-- [ ] Garbage collector
+- [x] Garbage collection
 - [ ] Native API calls
 - [ ] Importing libraries
 - [ ] Standard library
