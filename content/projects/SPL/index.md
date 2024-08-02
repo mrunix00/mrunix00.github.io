@@ -28,6 +28,6 @@ draft: false
 - [ ] Tail call optimization
 - [x] Garbage collection
 - [ ] Native API calls
-- [ ] Importing libraries
+- [x] Importing libraries
 - [ ] Standard library
 - [ ] JIT compiler
