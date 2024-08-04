@@ -27,7 +27,7 @@ draft: false
 - [x] Bytecode VM
 - [ ] Tail call optimization
 - [x] Garbage collection
-- [ ] Native API calls
+- [x] Native API calls
 - [x] Importing libraries
 - [ ] Standard library
 - [ ] JIT compiler
