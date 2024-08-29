@@ -1,12 +1,10 @@
 <nav>
-    <div class="navbar">
-        <a class="title navbar-link" href="/">Mr.UNIX</a>
-        {{ range .Site.Menus.main }}
-        {{if .Params.download }}
-        <a href="{{ .URL }}" class="navbar-link" target="_blank">{{ .Name }}</a>
+    <table class="header">
+        <td><a href="/">Mr.UNIX</a></td>
+        {{ range .Site.Menus.main }} {{if .Params.download }}
+        <td><a href="{{ .URL }}" target="_blank">{{ .Name }}</a></td>
         {{else}}
-        <a href="{{ .URL }}" class="navbar-link">{{ .Name }}</a>
-        {{end}}
-        {{ end }}
-    </div>
+        <td><a href="{{ .URL }}">{{ .Name }}</a></td>
+        {{end}} {{ end }}
+    </table>
 </nav>

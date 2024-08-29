@@ -5,44 +5,77 @@ draft: false
 
 [SPL](https://github.com/mrunix00/spl) is a simple interpreted, garbage collected and statically typed programming language.
 
-{{< rawhtml >}}
-<img src=logo.svg width=50%>
-{{< /rawhtml >}}
-
 ## Syntax
 ### Variables declaration
-```c
+
+{{< rawhtml >}}
+<table>
+<td>
 define x : int = 42;
+<br>
 define y = 42;
-```
+</td>
+</table>
+{{< /rawhtml >}}
+
 ### Arrays
-```c
+{{< rawhtml >}}
+<table>
+<td>
 define arr : int[] = [1, 2, 3, 4, 5];
+<br>
 define element = arr[0];
-```
+</td>
+</table>
+{{< /rawhtml >}}
 ## Function declarations
-```c
+{{< rawhtml >}}
+<table>
+<td>
 define add : function(x : int, y : int) -> int = {
+<br>&nbsp&nbsp&nbsp&nbsp
     return x + y;
+  <br>
 };
-```
+</td>
+</table>
+{{< /rawhtml >}}
+
 ## Conditions
-```c
+{{< rawhtml >}}
+<table>
+<td>
 if x == 42 {
-    // do something
+<br>
+&nbsp&nbsp&nbsp&nbsp // do something
+<br>
 } else {
-    // do something else
+<br>
+&nbsp&nbsp&nbsp&nbsp // do something else
+<br>
 };
-```
+</td>
+</table>
+{{< /rawhtml >}}
+
 ## Loops
-```c
+{{< rawhtml >}}
+<table>
+<td>
 while x < 42 {
-    // do something
+<br>
+&nbsp&nbsp&nbsp&nbsp // do something
+<br>
 };
+<br>
 for define i = 0; i < 20; i++ {
-    // do something
+<br>
+&nbsp&nbsp&nbsp&nbsp // do something
+<br>
 };
-```
+</td>
+</table>
+{{< /rawhtml >}}
 
 ## Roadmap
 - [x] Lexer
