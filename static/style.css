@@ -245,13 +245,14 @@ figure pre {
     margin: 0;
 }
 
-pre,
-code {
+pre {
     font-family: var(--font-family);
-}
-
-code {
     font-weight: var(--font-weight-medium);
+    border: var(--border-thickness) solid var(--text-color);
+    padding: calc((var(--line-height) / 2))
+        calc(1ch - var(--border-thickness) / 2)
+        calc((var(--line-height) / 2) - (var(--border-thickness)));
+    margin: 0 0 calc(var(--line-height) * 2);
 }
 
 figure {

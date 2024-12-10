@@ -8,74 +8,46 @@ draft: false
 ## Syntax
 ### Variables declaration
 
-{{< rawhtml >}}
-<table>
-<td>
+```
 define x : int = 42;
-<br>
 define y = 42;
-</td>
-</table>
-{{< /rawhtml >}}
+```
 
 ### Arrays
-{{< rawhtml >}}
-<table>
-<td>
+```
 define arr : int[] = [1, 2, 3, 4, 5];
-<br>
 define element = arr[0];
-</td>
-</table>
-{{< /rawhtml >}}
+```
+
 ## Function declarations
-{{< rawhtml >}}
-<table>
-<td>
+
+```
 define add : function(x : int, y : int) -> int = {
-<br>&nbsp&nbsp&nbsp&nbsp
     return x + y;
-  <br>
 };
-</td>
-</table>
-{{< /rawhtml >}}
+```
 
 ## Conditions
-{{< rawhtml >}}
-<table>
-<td>
+
+```
 if x == 42 {
-<br>
-&nbsp&nbsp&nbsp&nbsp // do something
-<br>
+    // do something
 } else {
-<br>
-&nbsp&nbsp&nbsp&nbsp // do something else
-<br>
+    // do something else
 };
-</td>
-</table>
-{{< /rawhtml >}}
+```
 
 ## Loops
-{{< rawhtml >}}
-<table>
-<td>
+
+```
 while x < 42 {
-<br>
-&nbsp&nbsp&nbsp&nbsp // do something
-<br>
+    // do something
 };
-<br>
+
 for define i = 0; i < 20; i++ {
-<br>
-&nbsp&nbsp&nbsp&nbsp // do something
-<br>
+    // do something
 };
-</td>
-</table>
-{{< /rawhtml >}}
+```
 
 ## Roadmap
 - [x] Lexer
