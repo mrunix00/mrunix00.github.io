@@ -3,10 +3,6 @@ languageCode = 'en-us'
 title = 'Mr.UNIX'
 
 [menu]
-[[menu.main]]
-    name = 'Projects'
-    url = '/projects/'
-    pre = 'pen-tool'
 
 [[menu.main]]
     name = 'Posts'
@@ -17,4 +13,3 @@ title = 'Mr.UNIX'
     name = 'Resume'
     url = '/resume.pdf'
     params = { download = true }
-

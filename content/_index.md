@@ -1,8 +1,16 @@
 # About me
 
-Welcome to my personal blog! I'm Ibrahim KAIKAA (also known as Mr.UNIX), 
+Welcome to my personal blog! I'm Ibrahim KAIKAA (also known as Mr.UNIX),
 a 20 years old nerd who likes computers.
 I'm not a genius or an expert in anything, but I'm always looking to gain and share my knowledge.
+
+# My Projects
+
+- [OS Gallery](https://osgallery.mrunix.me/)
+- [SPL](https://github.com/mrunix00/SPL)
+- [Yasi](https://github.com/mrunix00/Yasi)
+- [StargateProxy](https://github.com/mrunix00/StargateProxy)
+- [HAL64](https://github.com/mrunix00/HAL64)
 
 # Projects I contributed to
 
