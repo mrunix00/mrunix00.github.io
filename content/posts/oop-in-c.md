@@ -45,11 +45,17 @@ Contructors are methods that are used to initialize objects, while destructors a
 Implementing constructors is as simple as defining functions that return a struct instance:
 
 ```c
-Player newPlayer(int health, int mana, int level) {
-    return (Player) {
-        .health = health,
-        .mana = mana,
-        .level = level
+typedef struct {
+    int *data;
+    int size;
+    int capacity;
+} List;
+
+List newList() {
+    return (List) {
+        .data = malloc(sizeof(int) * 10),
+        .size = 0,
+        .capacity = 10
     };
 }
 ```
@@ -57,9 +63,9 @@ Player newPlayer(int health, int mana, int level) {
 Destructors on the other hand can be implemented by defining a function that takes a struct instance as a parameter:
 
 ```c
-void destroy_player(Player *player) {
-    free(player->data);
-    memset(player, 0, sizeof(Player));
+void destroyList(List *list) {
+    free(list->data);
+    memset(list, 0, sizeof(List));
 }
 ```
 
