@@ -13,3 +13,7 @@ title = 'Mr.UNIX'
     name = 'Resume'
     url = '/resume.pdf'
     params = { download = true }
+
+[markup]
+  [markup.highlight]
+    style = 'github-dark'

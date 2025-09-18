@@ -6,6 +6,7 @@ I'm not a genius or an expert in anything, but I'm always looking to gain and sh
 
 # My Projects
 
+- [MONOLITH](https://github.com/MONOLITH-Project/MONOLITH)
 - [OS Gallery](https://osgallery.mrunix.me/)
 - [SPL](https://github.com/mrunix00/SPL)
 - [Yasi](https://github.com/mrunix00/Yasi)
