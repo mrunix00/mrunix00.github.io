@@ -85,7 +85,8 @@ h1 {
     text-transform: uppercase;
 }
 h2 {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    line-height: calc(2 * var(--line-height));
     text-transform: uppercase;
 }
 
@@ -294,10 +295,6 @@ li::marker {
     line-height: 0;
 }
 
-::-webkit-scrollbar {
-    height: var(--line-height);
-}
-
 input,
 button,
 textarea {
@@ -315,7 +312,6 @@ textarea {
     line-height: normal;
     -webkit-font-smoothing: inherit;
     -moz-osx-font-smoothing: inherit;
-    -webkit-appearance: none;
 }
 
 input[type="checkbox"] {
