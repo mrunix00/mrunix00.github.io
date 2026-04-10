@@ -1,6 +1,7 @@
 baseURL = 'https://mrunix.me'
 languageCode = 'en-us'
 title = 'Mr.UNIX'
+enableRobotsTXT = true
 
 [menu]
 
