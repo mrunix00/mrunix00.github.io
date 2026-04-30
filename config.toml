@@ -1,5 +1,5 @@
 baseURL = 'https://mrunix.me'
-languageCode = 'en-us'
+languageCode = 'en-US'
 title = 'Mr.UNIX'
 enableRobotsTXT = true
 
@@ -9,10 +9,22 @@ enableRobotsTXT = true
     name = 'Posts'
     url = '/posts/'
     pre = 'pen-tool'
+    weight = 10
+
+[[menu.main]]
+    name = 'Projects'
+    url = '/projects/'
+    weight = 20
+
+[[menu.main]]
+    name = 'Devices'
+    url = '/devices/'
+    weight = 30
 
 [[menu.main]]
     name = 'Resume'
     url = '/resume.pdf'
+    weight = 40
     params = { download = true }
 
 [markup]

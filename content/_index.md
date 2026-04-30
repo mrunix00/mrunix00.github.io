@@ -4,28 +4,12 @@ Welcome to my personal blog! I'm Ibrahim KAIKAA (also known as Mr.UNIX),
 a 21 years old nerd who likes computers.
 I'm not a genius or an expert in anything, but I'm always looking to gain and share my knowledge.
 
-# My Projects
+# Links
 
-- [MONOLITH](https://github.com/MONOLITH-Project/MONOLITH)
-- [OS Gallery](https://osgallery.mrunix.me/)
-- [SPL](https://github.com/mrunix00/SPL)
-- [Yasi](https://github.com/mrunix00/Yasi)
-- [StargateProxy](https://github.com/mrunix00/StargateProxy)
-- [HAL64](https://github.com/mrunix00/HAL64)
-
-# Projects I contributed to
-
-- [HardenedBSD](https://git.hardenedbsd.org/mrunix).
-- [SerenityOS](https://github.com/SerenityOS/serenity/pulls?q=is%3Apr+author%3Amrunix00+is%3Aclosed).
-- [Research In English](https://researchinenglish.com/about.html).
-
-# Socials
-
-You can find me on the following platforms:
-
-- GitHub: [@mrunix00](https://github.com/mrunix00)
-- HardenedBSD GitLab: [@mrunix](https://git.hardenedbsd.org/mrunix)
-- Twitter: [@mrunix0](https://twitter.com/mrunix0)
+- X/Twitter: [@mrunix0](https://x.com/mrunix0)
 - Bluesky: [mrunix.me](https://bsky.app/profile/mrunix.me)
-- Mastodon: [@mrunix@infosec.exchange](https://infosec.exchange/@mrunix)
+- Discord: [@mrunix](https://discord.com/users/716792443831320616)
+- GitHub: [@mrunix00](https://github.com/mrunix00)
+- Codeberg: [mrunix](https://codeberg.org/mrunix)
 - LinkedIn: [Ibrahim KAIKAA](https://www.linkedin.com/in/ibrahimkaikaa/)
+- [RSS](/index.xml)
