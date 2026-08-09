@@ -3,6 +3,9 @@ languageCode = 'en-US'
 title = 'Mr.UNIX'
 enableRobotsTXT = true
 
+[params]
+    description = 'The personal website of Ibrahim KAIKAA (Mr.UNIX), featuring posts about computers, operating systems, and programming.'
+
 [menu]
 
 [[menu.main]]
