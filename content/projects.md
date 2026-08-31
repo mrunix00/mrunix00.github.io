@@ -9,6 +9,14 @@ An operating system I have been working on since March 2025. It currently has a 
 
 ![MONOLITH](monolith.webp)
 
-## [BlitzUI (WIP)](https://codeberg.org/MONOLITH-Project/BlitzUI)
+## [BlitzUI](https://codeberg.org/MONOLITH-Project/BlitzUI)
 
-An immediate mode UI library.
+An immediate mode UI library written in c99.
+
+![BlitzUI](blitzui.webp)
+
+## [ORBIT (WIP)](#ORBIT)
+
+A WIP operating system.
+
+![ORBIT](orbit.webp)

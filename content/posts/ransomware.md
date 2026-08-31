@@ -12,9 +12,7 @@ The app was very suspicious, considering that it was only 76 KB in size. In addi
 
 My suspicion was confirmed: the app turned out to be ransomware, and a horribly designed one at that.
 
-{{< rawhtml >}}
-<img src="ransomware.png" style="height:100%; width:auto; margin: 0 auto;" alt="Ransomware screenshot">
-{{< /rawhtml >}}
+![Ransomware screenshot](ransomware.png)
 
 Aside from the horribly designed UI, we can see that the ransomware demands that the user pay the equivalent of **$300** in Bitcoin (which, at the time of writing, [has not been paid by anyone](https://www.blockchain.com/explorer/addresses/btc/bc1q44pvm04dug444umxd83q8pp9rp490tedwpsjwm)) and contact the attacker via Telegram at `@Dz_rasnom` (yes, with the typo).
 
@@ -51,6 +49,4 @@ This gives us the private key and the list of encrypted files:
 
 When we enter the value of **private_key** into the ransomware, we can restore our encrypted files!
 
-{{< rawhtml >}}
-<img src="decrypted.png" style="height:100%; width:auto; margin: 0 auto;" alt="Ransomware screenshot">
-{{< /rawhtml >}}
+![Decrypted screenshot](decrypted.png)

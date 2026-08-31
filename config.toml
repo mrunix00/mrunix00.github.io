@@ -1,35 +1,51 @@
-baseURL = 'https://mrunix.me'
-languageCode = 'en-US'
+baseURL = 'https://mrunix.me/'
+languageCode = 'en-us'
 title = 'Mr.UNIX'
+theme = 'terminal'
 enableRobotsTXT = true
+pagination.pagerSize = 10
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.goldmark.extensions]
+  typographer = false
+
+[markup.highlight]
+  noClasses = false
 
 [params]
-    description = 'The personal website of Ibrahim KAIKAA (Mr.UNIX), featuring posts about computers, operating systems, and programming.'
+  contentTypeName = "posts"
+  description = "The personal website of Ibrahim KAIKAA (Mr.UNIX), featuring posts about computers, operating systems, and programming."
+  showMenuItems = 4
+  fullWidthTheme = false
+  centerTheme = true
+  autoCover = true
+  readMore = "Read more"
+  oneHeadingSize = true
+
+  [params.logo]
+    logoText = "Mr.UNIX"
+    logoHomeLink = "/"
 
 [menu]
-
-[[menu.main]]
-    name = 'Posts'
-    url = '/posts/'
-    pre = 'pen-tool'
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
     weight = 10
 
-[[menu.main]]
-    name = 'Projects'
-    url = '/projects/'
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
     weight = 20
 
-[[menu.main]]
-    name = 'Devices'
-    url = '/devices/'
+  [[menu.main]]
+    name = "Devices"
+    url = "/devices/"
     weight = 30
 
-[[menu.main]]
-    name = 'Resume'
-    url = '/resume.pdf'
+  [[menu.main]]
+    name = "Resume"
+    url = "/resume.pdf"
     weight = 40
-    params = { download = true }
-
-[markup]
-  [markup.highlight]
-    style = 'github-dark'
+    params = { newTab = true }
